@@ -1,102 +1,146 @@
-Thank you for buying Power Dolphin🐬. It will allow you to use the modern USB-C PD(Power Delivery protocol) / QC(Quick Charge protocol) chargers to power your Nintendo GameCube. This guide will help you get it installed on your GameCube.
+# Power Dolphin Installation Guide
 
-# Prerequisition
+Thank you for purchasing **Power Dolphin🐬**!  
+This mod allows you to power your Nintendo GameCube using modern USB-C chargers that support **PD (Power Delivery)** or **QC (Quick Charge)** at 12 V.  
+This guide will walk you through testing and installing Power Dolphin on your GameCube.
+
+---
+
+## Prerequisites
 
 You will need:
 
-- Gamebit screwdriver to open up the shell of GameCube  
-- A compatible USB-C charger that supports PD/QC on 12V and 3A(more on this in [Troubleshooting](#Troubleshooting))  
-- A small phillips screwdriver(PH0) to secure the Power Dolphin power mod  
-- Optionally, a fine tip tweezer will help
+- A **Gamebit screwdriver** to open the GameCube shell  
+- A **USB-C charger** that supports PD or QC at **12 V / 3 A**  
+  (see [Troubleshooting](#troubleshooting) for compatibility details)  
+- A **small Phillips screwdriver (PH0)** to secure the Power Dolphin power board  
+- *(Optional)* **Fine-tip tweezers**, which can make some steps easier  
 
-# Test Your USB-C Charger with Power Dolphin
+---
 
-Before you open up the GameCube, let’s try if the charger is compatible with Power Dolphin. Simply put the charger onto the wall and connect a USB C cable from the charger to Power Dolphin. A green LED should light up in just a few seconds, which means your charger can output 12V which is what GameCube needs. If the LED doesn’t light up, you’ll need to inspect the spec of the charger, it might not be able to output 12V. Some cheap USB-C cables do not include crucial data wires that Power Dolphin needs to negotiate a PD/QC protocol with the charger, so those cables won’t work either. More compatibility details in the [Troubleshooting](#Troubleshooting) section.
+## Test Your USB-C Charger with Power Dolphin
+
+Before opening your GameCube, verify that your charger is compatible:
+
+1. Plug the charger into the wall.  
+2. Connect a USB-C cable from the charger to the Power Dolphin board.  
+
+A **green LED** should light up within a few seconds.  
+This means your charger successfully negotiated **12 V output**, which is what the GameCube requires.
+
+If the LED **doesn’t light up**:
+- Check the specifications printed on your charger — it may not support 12 V output.  
+- Some cheap USB-C cables lack the **data wires** required for Power Dolphin to negotiate PD/QC, and therefore won’t work.
+
+More compatibility details can be found in the [Troubleshooting](#troubleshooting) section.
 
 ![20251018_220642.jpg](images/20251018_220642.jpg)
 
-# Installation
+---
 
-If your charger is ready to go, then it’s time to open up the GameCube.
+## Installation
 
-1. Use the gamebit screwdriver to remove 4 long gamebit screws on each corner of the bottom.
-![20251018_214945.jpg](images/20251018_214945.jpg)
+If your charger passes the test, you can proceed to install Power Dolphin.
 
-2. Carefully flip the GameCube over and lift the top shell.
-![20251018_215026.jpg](images/20251018_215026.jpg)
+1. Use the Gamebit screwdriver to remove the **four long screws** from the bottom corners of the GameCube.  
+   ![20251018_214945.jpg](images/20251018_214945.jpg)
 
-3. Tilt and pull the black back cover out.
-![20251018_215053.jpg](images/20251018_215053.jpg)
+2. Carefully flip the console over and lift off the **top shell**.  
+   ![20251018_215026.jpg](images/20251018_215026.jpg)
 
-4. Now turn the GameCube’s back towards you.  
-![20251018_215115.jpg](images/20251018_215115.jpg)
+3. Tilt and pull the **black back cover** outward.  
+   ![20251018_215053.jpg](images/20251018_215053.jpg)
 
-5. Start by carefully pulling two connectors out.   
-   The thicker one is the power connector, the thinner one is the fan connector.
-![20251018_215147.jpg](images/20251018_215200.jpg)
-![20251018_215200.jpg](images/20251018_215200.jpg)
+4. Turn the GameCube so the **back side** faces you.  
+   ![20251018_215115.jpg](images/20251018_215115.jpg)
 
-6. Use the PH0 screwdriver to remove the black screw in the middle of the power board.
-![20251018_215215.jpg](images/20251018_215215.jpg)
+5. Gently unplug the two connectors:  
+   - The **thicker** one is for power.  
+   - The **thinner** one is for the fan.  
+   ![20251018_215147.jpg](images/20251018_215147.jpg)
+   ![20251018_215200.jpg](images/20251018_215200.jpg)
 
-7. After removing the screw, you should be able to take the power board out easily.  
-![20251018_215233.jpg](images/20251018_215233.jpg)
+6. Use the PH0 screwdriver to remove the **black screw** in the center of the power board.  
+   ![20251018_215215.jpg](images/20251018_215215.jpg)
 
-8. Now put the Power Dolphin board back to the place the original power board stayed.
-![20251018_215245.jpg](images/20251018_215245.jpg)
+7. Lift out the **original power board**.  
+   ![20251018_215233.jpg](images/20251018_215233.jpg)
 
-9. Fasten Power Dolphin board using the PH0 screwdriver with the black screw.
-![20251018_215308.jpg](images/20251018_215308.jpg)
+8. Place the **Power Dolphin board** in the same position.  
+   ![20251018_215245.jpg](images/20251018_215245.jpg)
 
-10. Reconnect the power connector and fan connector to Power Dolphin. Note Power Dolphin came with a third connector in the middle, which is for a PC standard fan(Molex KK 254). If you have a fan mod(e.g. Noctua 4010 fan) with a PC fan connector, you can directly put the fan connector in the middle.
-![20251018_215357.jpg](images/20251018_215357.jpg)
+9. Reinstall the **black screw** to secure the board.  
+   ![20251018_215308.jpg](images/20251018_215308.jpg)
 
-11. Gently push the back cover into place. And that will finish the bottom part of the installation. Now it’s time to turn to the top shell.  
-![20251018_215434.jpg](images/20251018_215434.jpg)
+10. Reconnect both the **power** and **fan** connectors to Power Dolphin.  
+    - The board includes a **third connector** (center) for **PC-standard fans** (Molex KK 2.54 mm).  
+    - If you’re using a fan mod such as a **Noctua 4010**, you can plug it directly into this middle connector.  
+    ![20251018_215357.jpg](images/20251018_215357.jpg)
 
-12. You’ll need to swap out the original power button, with the supplied Power Dolphin’s button. From the inside of the topshell, gently prick the power button with a tweezer or screwdriver or your fingers.
-![20251018_220007.jpg](images/20251018_220007.jpg)
-![20251018_220023.jpg](images/20251018_220023.jpg)
+11. Push the **back cover** gently into place. This completes the lower half of the installation.  
+    ![20251018_215434.jpg](images/20251018_215434.jpg)
 
-13. Now from the topside of the topshell, align and push the supplied Power Dolphin’s button in. This should finish the power button’s installation.
-![20251018_220114.jpg](images/20251018_220114.jpg)
-![20251018_220131.jpg](images/20251018_220131.jpg)
+12. Next, replace the **original power button** with the **Power Dolphin button**:  
+    - From the inside of the top shell, gently push the button out using tweezers, a screwdriver, or your fingers.  
+      ![20251018_220007.jpg](images/20251018_220007.jpg)
+      ![20251018_220023.jpg](images/20251018_220023.jpg)
+    - From the top side, align and push in the new Power Dolphin button.  
+      ![20251018_220114.jpg](images/20251018_220114.jpg)
+      ![20251018_220131.jpg](images/20251018_220131.jpg)
 
-14. Before you putting the top shell back, it’s important to check
+13. Before reattaching the top shell, make sure:
+    1. The **power wires** are tucked into their groove.  
+       ![20251018_215904.jpg](images/20251018_215904.jpg)
+    2. The **fan wires** are also properly routed in their groove.  
+       ![20251018_215411.jpg](images/20251018_215411.jpg)
 
-    1. The power wires are tugged into the groove
-![20251018_215904.jpg](images/20251018_215904.jpg)
+14. Reinstall the top shell. Ensure that all **four corners** sit evenly on the bottom shell.  
+    ![20251018_215504.jpg](images/20251018_215504.jpg)
+    ![20251018_215512.jpg](images/20251018_215512.jpg)
 
-    2. The fan wires are tugged into the groove
-![20251018_215411.jpg](images/20251018_215411.jpg)
+15. Carefully flip the GameCube over and reinstall the **four long Gamebit screws**.  
+    ![20251018_215529.jpg](images/20251018_215529.jpg)
 
-15. Now put the top shell back into place, make sure all 4 corners all have an even contact with the bottom shell.
-![20251018_215504.jpg](images/20251018_215504.jpg)
-![20251018_215512.jpg](images/20251018_215512.jpg)
+16. **Tada! 🎉** Your Power Dolphin installation is complete.  
+    ![20251018_220347.jpg](images/20251018_220347.jpg)
+    ![20251018_220458.jpg](images/20251018_220458.jpg)
 
-16. Carefully flip the GameCube over, use the gamebit screwdriver to fasten the 4 long gamebit screws back.
-![20251018_215529.jpg](images/20251018_215529.jpg)
+---
 
-17. Tada🎉 Your Power Dolphin’s installation has finished.
-![20251018_220347.jpg](images/20251018_220347.jpg)
-![20251018_220458.jpg](images/20251018_220458.jpg)
+## Troubleshooting
 
+If the **green LED** on the Power Dolphin doesn’t light up, it means the board couldn’t negotiate a **12 V output** from your USB-C PD/QC charger.  
 
-# Troubleshooting
-
-If the green LED on the Power Dolphin board doesn’t light up, it means the Power Dolphin cannot negotiate 12V voltage output with the connected USB-C PD/QC charger. There are many chargers on the market that don't specify what voltage and what ampere it can provide. Even established brands like Belkin, Anker, Ugreen do that too. So it’s important to check the spec on the charger’s body, which usually will tell you about the actual spec, like this:
+Many chargers don’t clearly state which voltages and currents each port supports — even reputable brands like **Belkin**, **Anker**, or **Ugreen**.  
+Always check the **label on the charger**, which usually lists exact specifications, such as:
 
 ![20251018_220903.jpg](images/20251018_220903.jpg)
 
-Even with the right charger, it’s important to note not all ports provide the same voltage/current combination. Take the above example. There are 4 ports on this charger, USB-C1, USB-C2, USB-C3 and USB-A. USB-C1 and USB-C2 can output 12V at 3A(good). USB-C3 can output 12V at 2.5A(minimum, not recommended). USB-A can output 12V at 1.5A(no good, struggle to power on or to read disc). So for this charger, only USB-C1 and USB-C2 should be used to power the GameCube.
+Even with a proper charger, not all **ports** provide the same power.  
+In the example above:
+- **USB-C1** and **USB-C2** output **12 V / 3 A** ✅  
+- **USB-C3** outputs **12 V / 2.5 A** (minimum, not recommended) ⚠️  
+- **USB-A** outputs **12 V / 1.5 A** (insufficient — may fail to power on or read discs) ❌  
 
-**TL;DR, you will need to find a proper charger with a right port that provides:**  
-**Voltage: Exactly 12V**  
-**Current: 2.5A(minimum), 3A(recommended) or higher**
+Therefore, for this charger, only **USB-C1** and **USB-C2** should be used with the GameCube.
 
-The cable is another thing that can stop Power Dolphin from negotiating a 12V voltage with the charger. Some cheap cables only provide 2 or 4 wires, dubbed as “charging only cable”. Those cables can only provide 5V from any charger, so don’t use them.
+**In short, use a charger and port that provide:**  
+- **Voltage:** exactly **12 V**  
+- **Current:** at least **2.5 A** (3 A or higher recommended)
 
-If the 3D printed USB-C port cover fell off during transportation, you can easily push it back like this:
+---
+
+### Cable Compatibility
+
+Some cheap USB-C cables only include **two or four wires** (so-called “charging-only” cables).  
+These cables can only deliver **5 V** and lack the data lines required for PD/QC negotiation.  
+Avoid using them.
+
+---
+
+### USB-C Port Cover
+
+If the **3D-printed USB-C port cover** came loose during shipping, simply press it back in place as shown below:
 
 ![20251018_215625.jpg](images/20251018_215625.jpg)
 ![20251018_215638.jpg](images/20251018_215638.jpg)
