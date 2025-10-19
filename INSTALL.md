@@ -5,13 +5,13 @@ Thank you for buying Power Dolphin🐬. It will allow you to use the modern USB-
 You will need:
 
 - Gamebit screwdriver to open up the shell of GameCube  
-- A compatible USB-C charger that supports PD/QC on 12V and 3A(more on this in [Troubleshooting](#troubleshooting))  
+- A compatible USB-C charger that supports PD/QC on 12V and 3A(more on this in [Troubleshooting](#Troubleshooting))  
 - A small phillips screwdriver(PH0) to secure the Power Dolphin power mod  
 - Optionally, a fine tip tweezer will help
 
 # Test Your USB-C Charger with Power Dolphin
 
-Before you open up the GameCube, let’s try if the charger is compatible with Power Dolphin. Simply put the charger onto the wall and connect a USB C cable from the charger to Power Dolphin. A green LED should light up in just a few seconds, which means your charger can output 12V which is what GameCube needs. If the LED doesn’t light up, you’ll need to inspect the spec of the charger, it might not be able to output 12V. Some cheap USB-C cables do not include crucial data wires that Power Dolphin needs to negotiate a PD/QC protocol with the charger, so those cables won’t work either. More compatibility details in the [Troubleshooting](#troubleshooting) section.
+Before you open up the GameCube, let’s try if the charger is compatible with Power Dolphin. Simply put the charger onto the wall and connect a USB C cable from the charger to Power Dolphin. A green LED should light up in just a few seconds, which means your charger can output 12V which is what GameCube needs. If the LED doesn’t light up, you’ll need to inspect the spec of the charger, it might not be able to output 12V. Some cheap USB-C cables do not include crucial data wires that Power Dolphin needs to negotiate a PD/QC protocol with the charger, so those cables won’t work either. More compatibility details in the [Troubleshooting](#Troubleshooting) section.
 
 ![20251018_220642.jpg](images/20251018_220642.jpg)
 
@@ -82,7 +82,7 @@ If your charger is ready to go, then it’s time to open up the GameCube.
 ![20251018_220458.jpg](images/20251018_220458.jpg)
 
 
-# Troubleshooting {#troubleshooting}
+# Troubleshooting
 
 If the green LED on the Power Dolphin board doesn’t light up, it means the Power Dolphin cannot negotiate 12V voltage output with the connected USB-C PD/QC charger. There are many chargers on the market that don't specify what voltage and what ampere it can provide. Even established brands like Belkin, Anker, Ugreen do that too. So it’s important to check the spec on the charger’s body, which usually will tell you about the actual spec, like this:
 
