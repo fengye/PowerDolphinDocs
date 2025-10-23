@@ -13,7 +13,7 @@ You will need:
 - A **Gamebit screwdriver** to open the GameCube shell  
 - A **USB-C charger** that supports PD or QC at **12 V / 3 A**  
   (see [Troubleshooting](#troubleshooting) for compatibility details)  
-- A **small Phillips screwdriver (PH0)** to secure the Power Dolphin power board  
+- A **small Phillips screwdriver (PH1)** to secure the Power Dolphin power board  
 - *(Optional)* **Fine-tip tweezers**, which can make some steps easier  
 
 ---
@@ -60,7 +60,7 @@ If your charger passes the test, you can proceed to install Power Dolphin.
    ![20251018_215147.jpg](images/20251018_215147.jpg)
    ![20251018_215200.jpg](images/20251018_215200.jpg)
 
-6. Use the PH0 screwdriver to remove the **black screw** in the center of the power board.  
+6. Use the PH1 screwdriver to remove the **black screw** in the center of the power board.  
    ![20251018_215215.jpg](images/20251018_215215.jpg)
 
 7. Lift out the **original power board**.  
@@ -144,3 +144,8 @@ If the **3D-printed USB-C port cover** came loose during shipping, simply press 
 
 ![20251018_215625.jpg](images/20251018_215625.jpg)
 ![20251018_215638.jpg](images/20251018_215638.jpg)
+
+### 3D Print Files
+[USB-C Port Cover](stl/Power_Dolphin_USB-C_Port_Cover.stl)
+
+[Power Button](stl/Gamecube_Power_Button_for_Power_Dolphin.stl)
