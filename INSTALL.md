@@ -144,3 +144,8 @@ If the **3D-printed USB-C port cover** came loose during shipping, simply press 
 
 ![20251018_215625.jpg](images/20251018_215625.jpg)
 ![20251018_215638.jpg](images/20251018_215638.jpg)
+
+### 3D Print Files
+[USB-C Port Cover](stl/Power_Dolphin_USB-C_Port_Cover.stl)
+
+[Power Button](stl/Gamecube_Power_Button_for_Power_Dolphin.stl)
